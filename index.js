@@ -7,5 +7,4 @@ const totalBatteries = batteryBatches.reduce((total, batch) => {
   return total + batch;
 }, 0);
 
-console.log(totalBatteries); // Output: 31
-
+console.log(totalBatteries); 
